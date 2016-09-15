@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -86,84 +86,84 @@
 <library>
 <packages>
 <package name="1551K">
-<wire x1="37" y1="10.75" x2="37" y2="-15.73" width="0.08" layer="20"/>
-<wire x1="37" y1="-15.73" x2="35.73" y2="-17" width="0.08" layer="20" curve="-90"/>
-<wire x1="35.73" y1="-17" x2="-30.75" y2="-17" width="0.08" layer="20"/>
-<wire x1="-37" y1="-10.75" x2="-37" y2="15.73" width="0.08" layer="20"/>
-<wire x1="-37" y1="15.73" x2="-35.73" y2="17" width="0.08" layer="20" curve="-90"/>
-<wire x1="-35.73" y1="17" x2="30.75" y2="17" width="0.08" layer="20"/>
-<wire x1="-37" y1="-10.75" x2="-33.75" y2="-10.75" width="0.08" layer="20"/>
-<wire x1="-33.75" y1="-10.75" x2="-30.75" y2="-13.75" width="0.08" layer="20" curve="-90"/>
-<wire x1="-30.75" y1="-13.75" x2="-30.75" y2="-17" width="0.08" layer="20"/>
-<wire x1="37" y1="10.75" x2="33.75" y2="10.75" width="0.08" layer="20"/>
-<wire x1="33.75" y1="10.75" x2="30.75" y2="13.75" width="0.08" layer="20" curve="-90"/>
-<wire x1="30.75" y1="13.75" x2="30.75" y2="17" width="0.08" layer="20"/>
+<wire x1="37" y1="10.75" x2="37" y2="-15.73" width="0" layer="20"/>
+<wire x1="37" y1="-15.73" x2="35.73" y2="-17" width="0" layer="20" curve="-90"/>
+<wire x1="35.73" y1="-17" x2="-30.75" y2="-17" width="0" layer="20"/>
+<wire x1="-37" y1="-10.75" x2="-37" y2="15.73" width="0" layer="20"/>
+<wire x1="-37" y1="15.73" x2="-35.73" y2="17" width="0" layer="20" curve="-90"/>
+<wire x1="-35.73" y1="17" x2="30.75" y2="17" width="0" layer="20"/>
+<wire x1="-37" y1="-10.75" x2="-33.75" y2="-10.75" width="0" layer="20"/>
+<wire x1="-33.75" y1="-10.75" x2="-30.75" y2="-13.75" width="0" layer="20" curve="-90"/>
+<wire x1="-30.75" y1="-13.75" x2="-30.75" y2="-17" width="0" layer="20"/>
+<wire x1="37" y1="10.75" x2="33.75" y2="10.75" width="0" layer="20"/>
+<wire x1="33.75" y1="10.75" x2="30.75" y2="13.75" width="0" layer="20" curve="-90"/>
+<wire x1="30.75" y1="13.75" x2="30.75" y2="17" width="0" layer="20"/>
 <hole x="-20" y="14.25" drill="2.5"/>
 <hole x="20" y="-14.25" drill="2.5"/>
 </package>
 <package name="1551P/Q">
-<wire x1="-17" y1="-10.75" x2="-17" y2="16" width="0.1" layer="20"/>
-<wire x1="-17" y1="16" x2="-16" y2="17" width="0.1" layer="20" curve="-90"/>
-<wire x1="-16" y1="17" x2="10.75" y2="17" width="0.1" layer="20"/>
-<wire x1="17" y1="10.75" x2="17" y2="-16" width="0.1" layer="20"/>
-<wire x1="17" y1="-16" x2="16" y2="-17" width="0.1" layer="20" curve="-90"/>
-<wire x1="16" y1="-17" x2="-10.75" y2="-17" width="0.1" layer="20"/>
+<wire x1="-17" y1="-10.75" x2="-17" y2="16" width="0" layer="20"/>
+<wire x1="-17" y1="16" x2="-16" y2="17" width="0" layer="20" curve="-90"/>
+<wire x1="-16" y1="17" x2="10.75" y2="17" width="0" layer="20"/>
+<wire x1="17" y1="10.75" x2="17" y2="-16" width="0" layer="20"/>
+<wire x1="17" y1="-16" x2="16" y2="-17" width="0" layer="20" curve="-90"/>
+<wire x1="16" y1="-17" x2="-10.75" y2="-17" width="0" layer="20"/>
 <hole x="10" y="-14.25" drill="2.5"/>
 <hole x="-10" y="14.25" drill="2.5"/>
-<wire x1="10.75" y1="17" x2="10.75" y2="13.75" width="0.1" layer="20"/>
-<wire x1="10.75" y1="13.75" x2="13.75" y2="10.75" width="0.1" layer="20" curve="90"/>
-<wire x1="13.75" y1="10.75" x2="17" y2="10.75" width="0.1" layer="20"/>
-<wire x1="-10.75" y1="-17" x2="-10.75" y2="-13.75" width="0.1" layer="20"/>
-<wire x1="-10.75" y1="-13.75" x2="-13.75" y2="-10.75" width="0.1" layer="20" curve="90"/>
-<wire x1="-13.75" y1="-10.75" x2="-17" y2="-10.75" width="0.1" layer="20"/>
+<wire x1="10.75" y1="17" x2="10.75" y2="13.75" width="0" layer="20"/>
+<wire x1="10.75" y1="13.75" x2="13.75" y2="10.75" width="0" layer="20" curve="90"/>
+<wire x1="13.75" y1="10.75" x2="17" y2="10.75" width="0" layer="20"/>
+<wire x1="-10.75" y1="-17" x2="-10.75" y2="-13.75" width="0" layer="20"/>
+<wire x1="-10.75" y1="-13.75" x2="-13.75" y2="-10.75" width="0" layer="20" curve="90"/>
+<wire x1="-13.75" y1="-10.75" x2="-17" y2="-10.75" width="0" layer="20"/>
 </package>
 <package name="1551M/N">
-<wire x1="-14.5" y1="-8.25" x2="-14.5" y2="13.5" width="0.1" layer="20"/>
-<wire x1="-14.5" y1="13.5" x2="-13.5" y2="14.5" width="0.1" layer="20" curve="-90"/>
-<wire x1="-13.5" y1="14.5" x2="8.25" y2="14.5" width="0.1" layer="20"/>
-<wire x1="14.5" y1="8.25" x2="14.5" y2="-13.5" width="0.1" layer="20"/>
-<wire x1="14.5" y1="-13.5" x2="13.5" y2="-14.5" width="0.1" layer="20" curve="-90"/>
-<wire x1="13.5" y1="-14.5" x2="-8.25" y2="-14.5" width="0.1" layer="20"/>
+<wire x1="-14.5" y1="-8.25" x2="-14.5" y2="13.5" width="0" layer="20"/>
+<wire x1="-14.5" y1="13.5" x2="-13.5" y2="14.5" width="0" layer="20" curve="-90"/>
+<wire x1="-13.5" y1="14.5" x2="8.25" y2="14.5" width="0" layer="20"/>
+<wire x1="14.5" y1="8.25" x2="14.5" y2="-13.5" width="0" layer="20"/>
+<wire x1="14.5" y1="-13.5" x2="13.5" y2="-14.5" width="0" layer="20" curve="-90"/>
+<wire x1="13.5" y1="-14.5" x2="-8.25" y2="-14.5" width="0" layer="20"/>
 <hole x="-8.75" y="11.75" drill="2.5"/>
 <hole x="8.75" y="-11.75" drill="2.5"/>
-<wire x1="-8.25" y1="-14.5" x2="-8.25" y2="-11.25" width="0.1" layer="20"/>
-<wire x1="-8.25" y1="-11.25" x2="-11.25" y2="-8.25" width="0.1" layer="20" curve="90"/>
-<wire x1="-11.25" y1="-8.25" x2="-14.5" y2="-8.25" width="0.1" layer="20"/>
-<wire x1="8.25" y1="14.5" x2="8.25" y2="11.25" width="0.1" layer="20"/>
-<wire x1="8.25" y1="11.25" x2="11.25" y2="8.25" width="0.1" layer="20" curve="90"/>
-<wire x1="11.25" y1="8.25" x2="14.5" y2="8.25" width="0.1" layer="20"/>
+<wire x1="-8.25" y1="-14.5" x2="-8.25" y2="-11.25" width="0" layer="20"/>
+<wire x1="-8.25" y1="-11.25" x2="-11.25" y2="-8.25" width="0" layer="20" curve="90"/>
+<wire x1="-11.25" y1="-8.25" x2="-14.5" y2="-8.25" width="0" layer="20"/>
+<wire x1="8.25" y1="14.5" x2="8.25" y2="11.25" width="0" layer="20"/>
+<wire x1="8.25" y1="11.25" x2="11.25" y2="8.25" width="0" layer="20" curve="90"/>
+<wire x1="11.25" y1="8.25" x2="14.5" y2="8.25" width="0" layer="20"/>
 </package>
 <package name="1551F/G">
-<wire x1="-22.25" y1="-8.25" x2="-22.25" y2="13.5" width="0.1" layer="21"/>
-<wire x1="-22.25" y1="13.5" x2="-21.25" y2="14.5" width="0.1" layer="21" curve="-90"/>
-<wire x1="-21.25" y1="14.5" x2="16" y2="14.5" width="0.1" layer="21"/>
-<wire x1="22.25" y1="8.25" x2="22.25" y2="-13.5" width="0.1" layer="21"/>
-<wire x1="22.25" y1="-13.5" x2="21.25" y2="-14.5" width="0.1" layer="21" curve="-90"/>
-<wire x1="21.25" y1="-14.5" x2="-16" y2="-14.5" width="0.1" layer="21"/>
+<wire x1="-22.25" y1="-8.25" x2="-22.25" y2="13.5" width="0" layer="20"/>
+<wire x1="-22.25" y1="13.5" x2="-21.25" y2="14.5" width="0" layer="20" curve="-90"/>
+<wire x1="-21.25" y1="14.5" x2="16" y2="14.5" width="0" layer="20"/>
+<wire x1="22.25" y1="8.25" x2="22.25" y2="-13.5" width="0" layer="20"/>
+<wire x1="22.25" y1="-13.5" x2="21.25" y2="-14.5" width="0" layer="20" curve="-90"/>
+<wire x1="21.25" y1="-14.5" x2="-16" y2="-14.5" width="0" layer="20"/>
 <hole x="-12.5" y="11.75" drill="2.5"/>
 <hole x="12.5" y="-11.75" drill="2.5"/>
-<wire x1="-22.25" y1="-8.25" x2="-19" y2="-8.25" width="0.1" layer="21"/>
-<wire x1="-19" y1="-8.25" x2="-16" y2="-11.25" width="0.1" layer="21" curve="-90"/>
-<wire x1="-16" y1="-11.25" x2="-16" y2="-14.5" width="0.1" layer="21"/>
-<wire x1="16" y1="14.5" x2="16" y2="11.25" width="0.1" layer="21"/>
-<wire x1="16" y1="11.25" x2="19" y2="8.25" width="0.1" layer="21" curve="90"/>
-<wire x1="19" y1="8.25" x2="22.25" y2="8.25" width="0.1" layer="21"/>
+<wire x1="-22.25" y1="-8.25" x2="-19" y2="-8.25" width="0" layer="20"/>
+<wire x1="-19" y1="-8.25" x2="-16" y2="-11.25" width="0" layer="20" curve="-90"/>
+<wire x1="-16" y1="-11.25" x2="-16" y2="-14.5" width="0" layer="20"/>
+<wire x1="16" y1="14.5" x2="16" y2="11.25" width="0" layer="20"/>
+<wire x1="16" y1="11.25" x2="19" y2="8.25" width="0" layer="20" curve="90"/>
+<wire x1="19" y1="8.25" x2="22.25" y2="8.25" width="0" layer="20"/>
 </package>
 <package name="1551R/S">
-<wire x1="-22" y1="-15.75" x2="-22" y2="21" width="0.1" layer="20"/>
-<wire x1="-22" y1="21" x2="-21" y2="22" width="0.1" layer="20" curve="-90"/>
-<wire x1="-21" y1="22" x2="15.75" y2="22" width="0.1" layer="20"/>
-<wire x1="22" y1="15.75" x2="22" y2="-21" width="0.1" layer="20"/>
-<wire x1="22" y1="-21" x2="21" y2="-22" width="0.1" layer="20" curve="-90"/>
-<wire x1="21" y1="-22" x2="-15.75" y2="-22" width="0.1" layer="20"/>
+<wire x1="-22" y1="-15.75" x2="-22" y2="21" width="0" layer="20"/>
+<wire x1="-22" y1="21" x2="-21" y2="22" width="0" layer="20" curve="-90"/>
+<wire x1="-21" y1="22" x2="15.75" y2="22" width="0" layer="20"/>
+<wire x1="22" y1="15.75" x2="22" y2="-21" width="0" layer="20"/>
+<wire x1="22" y1="-21" x2="21" y2="-22" width="0" layer="20" curve="-90"/>
+<wire x1="21" y1="-22" x2="-15.75" y2="-22" width="0" layer="20"/>
 <hole x="-12.5" y="19.25" drill="2.5"/>
 <hole x="12.5" y="-19.25" drill="2.5"/>
-<wire x1="-22" y1="-15.75" x2="-18.75" y2="-15.75" width="0.1" layer="20"/>
-<wire x1="-18.75" y1="-15.75" x2="-15.75" y2="-18.75" width="0.1" layer="20" curve="-90"/>
-<wire x1="-15.75" y1="-18.75" x2="-15.75" y2="-22" width="0.1" layer="20"/>
-<wire x1="22" y1="15.75" x2="18.75" y2="15.75" width="0.1" layer="20"/>
-<wire x1="18.75" y1="15.75" x2="15.75" y2="18.75" width="0.1" layer="20" curve="-90"/>
-<wire x1="15.75" y1="18.75" x2="15.75" y2="22" width="0.1" layer="20"/>
+<wire x1="-22" y1="-15.75" x2="-18.75" y2="-15.75" width="0" layer="20"/>
+<wire x1="-18.75" y1="-15.75" x2="-15.75" y2="-18.75" width="0" layer="20" curve="-90"/>
+<wire x1="-15.75" y1="-18.75" x2="-15.75" y2="-22" width="0" layer="20"/>
+<wire x1="22" y1="15.75" x2="18.75" y2="15.75" width="0" layer="20"/>
+<wire x1="18.75" y1="15.75" x2="15.75" y2="18.75" width="0" layer="20" curve="-90"/>
+<wire x1="15.75" y1="18.75" x2="15.75" y2="22" width="0" layer="20"/>
 </package>
 </packages>
 <symbols>
